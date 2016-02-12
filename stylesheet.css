@@ -1,0 +1,123 @@
+body{
+	font-family: arial;
+	font-size:15px;
+	background-color:rgb(80,80,80);
+}
+
+h3{
+	text-align: center;
+}
+
+.pe{
+	border-top-style: solid;
+	border-top-width: medium;
+	padding-top: 5px;
+}
+
+.ed{
+	border-top-style: solid;
+	border-top-width: medium;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+em{
+	padding:5%;
+}
+
+.main{
+	width:900px;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding:10px;
+	padding-bottom:30px;
+	background-color: rgb(210,210,210);
+	border-radius:10px;
+}
+
+.header{
+	height: 75px;
+	border-bottom-style: solid;
+	border-bottom-width: medium;
+}
+
+.box1 {
+	width: 33%;
+	float: left;
+}
+
+#headleft{
+	text-align:left;
+	padding-top: 25px;
+}
+
+#headright{
+	text-align:right;
+	padding-top: 25px;
+}
+
+#headcenter{
+	text-align:center;
+	padding-top: 7px;
+}
+
+.aboutme{
+	height:400px;
+	padding-top:15px;
+}
+
+.box2 {
+	width: 45%;
+	float:left;
+}
+
+#pic{
+	margin-left:5%;
+}
+
+.title{
+	width:100%;
+	padding:10px;
+}
+
+.box3 {
+	width: 50%;
+	float:left;
+}
+
+.jobbox{
+	height:75px;
+	background-color: rgb(195,195,195);
+	border-top-style: solid;
+	border-top-width: thin;
+}
+
+.jobbox2{
+	height:100px;
+	background-color: rgb(195,195,195);
+	border-top-style: solid;
+	border-top-width: thin;
+}
+
+#jobdesc1{
+	height: 30px;
+}
+
+#jobdesc2{
+	height: 30px;	
+	text-align: right;
+}
+
+#jobdesc3{
+	height: 25px;
+}
+
+#jobdesc4{
+	height: 25px;	
+	text-align: right;
+}
