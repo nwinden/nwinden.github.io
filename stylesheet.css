@@ -4,35 +4,12 @@ body{
 	background-color:rgb(80,80,80);
 }
 
-h3{
-	text-align: center;
-}
-
-.pe{
-	border-top-style: solid;
-	border-top-width: medium;
-	padding-top: 5px;
-}
-
-.ed{
-	border-top-style: solid;
-	border-top-width: medium;
-	border-bottom-style: solid;
-	border-bottom-width: thin;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-em{
-	padding:5%;
-}
-
-.main{
+main{
 	width:900px;
-	height:1610px;
+	height:1650px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top:30px;
+	margin-top:15px;
 	margin-bottom:30px;
 	padding:10px;
 	padding-bottom:30px;
@@ -40,84 +17,106 @@ em{
 	border-radius:10px;
 }
 
-.header{
+header{
+	width:900px;
 	height: 75px;
+	margin: 0 0 10px 0;
 	border-bottom-style: solid;
 	border-bottom-width: medium;
 }
 
-.box1 {
-	width: 33%;
-	float: left;
+header section{
+	float:left;
+	width:300px;
 }
 
-#headleft{
-	text-align:left;
-	padding-top: 25px;
+header p {
+	margin:10px;
 }
 
-#headright{
-	text-align:right;
-	padding-top: 25px;
-}
-
-#headcenter{
+.headCenter{
 	text-align:center;
-	padding-top: 7px;
+}
+
+.headRight{
+	text-align:right;
+
 }
 
 .aboutme{
 	height:400px;
-	padding-top:15px;
+	margin:auto;
 }
 
-.box2 {
-	width: 45%;
+.aboutme figure {
+	border:1px dashed black;
+	width:auto;
+	height:100%;
+	margin:0 0 0 5px;
 	float:left;
 }
 
-#pic{
-	margin-left:5%;
-}
-
-.title{
-	width:100%;
-	padding:10px;
-}
-
-.box3 {
-	width: 50%;
+.aboutme figurecaption {
+	border:1px dashed black;
+	width:455px;
+	height:100%;
+	padding:0 0 0 15px;
+	margin:0 0 0 15px;
 	float:left;
 }
 
-.jobbox{
+h3{
+	text-align: center;
+	border-top-style: solid;
+	border-top-width: medium;
+	border-bottom-style: solid;
+	border-bottom-width: medium;
+	padding:5px 0 5px 0;
+	margin:15px 0 15px 0;
+}
+
+.job {
+	height:auto;
+	width:auto;
+}
+
+.job header{
 	height:75px;
 	background-color: rgb(195,195,195);
 	border-top-style: solid;
 	border-top-width: thin;
+	border-bottom-style: none;
 }
 
-.jobbox2{
-	height:100px;
+.job2 header{
+	height:115px;
 	background-color: rgb(195,195,195);
 	border-top-style: solid;
 	border-top-width: thin;
+	border-bottom-style: none;
 }
 
-#jobdesc1{
-	height: 30px;
+h4{
+	height: auto;
+	margin:15px 0 0 15px;
+	padding:0 0 0 15px;
 }
 
-#jobdesc2{
-	height: 30px;	
+.job section:nth-child(odd), .job2 section:nth-child(odd){
+	padding-left: 45px;
+	font-style:italic;
+	width:auto;
+
+}
+	
+.job section:nth-child(even), .job2 section:nth-child(even){
 	text-align: right;
+	float:right;
+	width:auto;
 }
 
-#jobdesc3{
-	height: 25px;
+.edu *{
+	margin-left:15px;
 }
+	
 
-#jobdesc4{
-	height: 25px;	
-	text-align: right;
-}
