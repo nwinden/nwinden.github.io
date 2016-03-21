@@ -49,7 +49,6 @@ header p {
 }
 
 .aboutme figure {
-	border:1px dashed black;
 	width:auto;
 	height:100%;
 	margin:0 0 0 5px;
@@ -57,7 +56,6 @@ header p {
 }
 
 .aboutme figurecaption {
-	border:1px dashed black;
 	width:455px;
 	height:100%;
 	padding:0 0 0 15px;
