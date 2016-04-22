@@ -1,20 +1,32 @@
 body{
 	font-family: arial;
-	font-size:15px;
+	font-size:16px;
 	background-color:rgb(80,80,80);
 }
 
 main{
-	width:900px;
-	height:1650px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top:15px;
-	margin-bottom:30px;
+	width:auto;
+	height:auto;
+	margin: auto;
 	padding:10px;
-	padding-bottom:30px;
 	background-color: rgb(210,210,210);
-	border-radius:10px;
+	border-radius:5px;
+}
+
+.magic {
+	display:none;
+}
+
+
+button{
+	display:inline;
+	position: absolute;
+	top:500px;
+	left:50%;
+}
+
+.clearfix {
+	overflow: auto;
 }
 
 header{
@@ -44,23 +56,18 @@ header p {
 }
 
 .aboutme{
-	height:400px;
-	margin:auto;
+	display:inline-block;
+	height:auto;
+	width:900px;
+
 }
 
-.aboutme figure {
-	width:auto;
-	height:100%;
-	margin:0 0 0 5px;
+.aboutme .pic, .aboutme .summary {
 	float:left;
-}
+	height:auto;
+	width:425px;
+	margin-left: 15px;
 
-.aboutme figurecaption {
-	width:455px;
-	height:100%;
-	padding:0 0 0 15px;
-	margin:0 0 0 15px;
-	float:left;
 }
 
 h3{
@@ -76,45 +83,43 @@ h3{
 .job {
 	height:auto;
 	width:auto;
+
 }
 
 .job header{
-	height:75px;
-	background-color: rgb(195,195,195);
-	border-top-style: solid;
-	border-top-width: thin;
-	border-bottom-style: none;
-}
-
-.job2 header{
-	height:115px;
-	background-color: rgb(195,195,195);
-	border-top-style: solid;
-	border-top-width: thin;
-	border-bottom-style: none;
-}
-
-h4{
-	height: auto;
-	margin:15px 0 0 15px;
-	padding:0 0 0 15px;
-}
-
-.job section:nth-child(odd), .job2 section:nth-child(odd){
-	padding-left: 45px;
-	font-style:italic;
+	height:auto;
 	width:auto;
+	background-color: rgb(195,195,195);
+	border-top-style: solid;
+	border-top-width: thin;
+	border-bottom-style: none;
+}
 
+ .job h4, .job div, .job p, .job ul{
+ 	margin-left:20px;
+}
+
+.job div {
+	display:inline-block;
+	width:875px;
+}
+
+div section{
+	width: auto;
+}
+
+div section:nth-child(odd){
+	
+	float:left;
+	font-style:italic;
 }
 	
-.job section:nth-child(even), .job2 section:nth-child(even){
-	text-align: right;
+div section:nth-child(even){
 	float:right;
-	width:auto;
 }
 
-.edu *{
-	margin-left:15px;
+.edu {
+	margin-left:30px;
 }
 	
 
